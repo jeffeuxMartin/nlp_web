@@ -5,6 +5,7 @@
 
 ## Slides
 
+<<<<<<< HEAD
 * [![week1  ](https://img.shields.io/badge/slides-week1-ff0000)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week1.html)
 * [![week2  ](https://img.shields.io/badge/slides-week2-c13e00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week2.html)
 * [![week3  ](https://img.shields.io/badge/slides-week3-966900)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week3.html)
@@ -18,4 +19,11 @@
 * [![week11](https://img.shields.io/badge/slides-week11-00659b)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week11.html)
 * [![week12](https://img.shields.io/badge/slides-week12-0046b9)](https://hackmd.io/@howard-haowen/webapps/)
 * [![week13](https://img.shields.io/badge/slides-week13-1f00e0)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week13.html)
+=======
+* [![week1](https://img.shields.io/badge/slides-week1-ff0000)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week1.html)
+* [![week2](https://img.shields.io/badge/slides-week2-ff8800)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week2.html)
+* [![week3](https://img.shields.io/badge/slides-week3-ffff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week3.html)
+* [![week4](https://img.shields.io/badge/slides-week4-88ff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week4.html)
+* [![week5](https://img.shields.io/badge/slides-week5-00ff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week5.html)
+>>>>>>> bc47be12 (Add slide badges)
 
