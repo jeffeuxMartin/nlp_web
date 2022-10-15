@@ -25,5 +25,9 @@
 * [![week3](https://img.shields.io/badge/slides-week3-ffff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week3.html)
 * [![week4](https://img.shields.io/badge/slides-week4-88ff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week4.html)
 * [![week5](https://img.shields.io/badge/slides-week5-00ff00)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week5.html)
+<<<<<<< HEAD
 >>>>>>> bc47be12 (Add slide badges)
+=======
+* [![week6](https://img.shields.io/badge/slides-week6-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week6.html)
+>>>>>>> f612796a (Update README.md)
 
