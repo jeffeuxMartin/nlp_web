@@ -1,9 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 自然語言與網路服務 投影片 (by `iakuhs` [謝舒凱教授](https://github.com/loperntu)）
 
 =======
 >>>>>>> 9ad4255e (Update index.md)
+=======
+# 自然語言與網路服務 投影片 (by `iakuhs` [謝舒凱教授](https://github.com/loperntu)）
+
+>>>>>>> d8d0b122 (Update index.md)
 * [Week 1](week1.html)
 * [Week 2](week2.html)
 * [Week 3](week3.html)
