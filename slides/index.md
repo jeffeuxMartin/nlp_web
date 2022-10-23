@@ -1,3 +1,5 @@
+# 自然語言與網路服務 投影片 (by `iakuhs` [謝舒凱教授](https://github.com/loperntu)）
+
 * [Week 1](week1.html)
 * [Week 2](week2.html)
 * [Week 3](week3.html)
