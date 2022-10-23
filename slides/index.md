@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 自然語言與網路服務 投影片 (by `iakuhs` [謝舒凱教授](https://github.com/loperntu)）
 
 * [Week 1](week1.html)
@@ -8,3 +9,7 @@
 * [Week 6](week6.html)
 * ~~Week 7~~ 讀 W3School JavaScript 教學
 * Week 8 (Coming soon... React Tutorial by 謝心默助教)
+=======
+* [Week 1](slides/week1.html)
+* 
+>>>>>>> 10cc4720 (Create index.md)
