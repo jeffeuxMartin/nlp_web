@@ -184,7 +184,9 @@ yarn-error.log*
 yarn-error.log*
 =======
 node_modules
+<<<<<<< HEAD
 >>>>>>> d998be8a (移除超肥的 node_modules)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 0d967612 (移除超肥的 node_modules)
@@ -201,9 +203,45 @@ yarn-error.log*
 =======
 =======
 =======
+>>>>>>> 1dc3d0e8 (feat: add gitignore file)
+=======
 yarn-error.log*
 >>>>>>> 23efefd6 (feat: add gitignore file)
 =======
 >>>>>>> c458e27e (移除超肥的 node_modules)
+<<<<<<< HEAD
 >>>>>>> 8016dc8f (移除超肥的 node_modules)
+<<<<<<< HEAD
 >>>>>>> 4fc6b778 (移除超肥的 node_modules)
+=======
+=======
+=======
+=======
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> 8533bb68 (feat: add gitignore file)
+>>>>>>> b494e356 (feat: add gitignore file)
+>>>>>>> 1dc3d0e8 (feat: add gitignore file)
+>>>>>>> 86e97930 (feat: add gitignore file)
