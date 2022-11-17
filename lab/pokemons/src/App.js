@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Header from './components/Header';
 import PokemonCard from './components/PokemonCard/PokemonCard';
 <<<<<<< HEAD
@@ -27,11 +28,14 @@ import CartInfo from './components/CartInfo';
 import useFetch from "./hooks/useFetch";
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
 import Header from "./components/Header";
 import PokemonCard from "./components/PokemonCard/PokemonCard";
 =======
 import Header from './components/Header';
 import PokemonCard from './components/PokemonCard/PokemonCard';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import CartInfo from './components/Cart/CartInfo';
@@ -46,6 +50,13 @@ import useFetch from "./hooks/useFetch";
 =======
 import useFetch from "./hooks/useFetch";
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+=======
+import CartInfo from './components/Cart/CartInfo';
+=======
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+import useFetch from "./hooks/useFetch";
+>>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
 
 // https://pokeapi.co/
 const url = "https://pokeapi.co/api/v2/pokemon?limit=30";
@@ -59,6 +70,7 @@ const PokemonsWrapper = styled.div`
 
 function App() {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [notification,setNotification] = useState(null);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,10 +81,13 @@ function App() {
   
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
   const [notification, setNotification] = useState(null);
 
 =======
   const [notification,setNotification] = useState(null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   
@@ -136,6 +151,10 @@ function App() {
   const {loading, error, data: pokemons} = useFetch({
 =======
   
+=======
+  
+>>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
   /**
    *  較好的方式是 cart 內只存 {id: id, count: count} ，不存多餘的資訊（e.g., price）
    *  因為 id 應該要是 unique，count 是使用者操作過後的值
@@ -145,6 +164,7 @@ function App() {
    */
    const [cart, setCart] = useState([]);
 
+<<<<<<< HEAD
    const {loading, error, data: pokemons} = useFetch({
 >>>>>>> 3dcca5a7 (feat: add cart info)
     url, 
@@ -170,6 +190,8 @@ function App() {
     url, 
     resolvedPath: 'results'
 =======
+=======
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
 <<<<<<< HEAD
   const {
     loading,
@@ -181,6 +203,7 @@ function App() {
 =======
    const {loading, error, data: pokemons} = useFetch({
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   const {loading, error, data: pokemons} = useFetch({
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
@@ -190,6 +213,14 @@ function App() {
     resolvedPath: 'results'
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
+=======
+=======
+  const {loading, error, data: pokemons} = useFetch({
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+    url, 
+    resolvedPath: 'results'
+>>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
   });
 
 =======

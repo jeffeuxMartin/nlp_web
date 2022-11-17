@@ -9,6 +9,7 @@ const useFetch = ({url, resolvedPath}) => {
     fetch(url)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       .then(response => {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ const useFetch = ({url, resolvedPath}) => {
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
       .then((response) => {
         console.log(response);
 =======
@@ -29,11 +32,14 @@ const useFetch = ({url, resolvedPath}) => {
         console.log(response);
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+<<<<<<< HEAD
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
 =======
       .then(response => {
         console.log(response);
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+=======
+>>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
         return response.json();
       })
       .then(data => {
