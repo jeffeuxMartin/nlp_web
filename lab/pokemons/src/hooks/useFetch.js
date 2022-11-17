@@ -9,6 +9,10 @@ const useFetch = ({url, resolvedPath}) => {
     fetch(url)
       .then(response => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        console.log(response);
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 =======
         console.log(response);
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
