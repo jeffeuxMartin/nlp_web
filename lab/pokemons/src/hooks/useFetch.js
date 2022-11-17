@@ -10,6 +10,7 @@ const useFetch = ({url, resolvedPath}) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       .then(response => {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23,9 +24,13 @@ const useFetch = ({url, resolvedPath}) => {
 <<<<<<< HEAD
 =======
 >>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
+=======
+>>>>>>> 6200f67c (feat: add useFetch custom hook for code reuse)
       .then((response) => {
         console.log(response);
 =======
+=======
+>>>>>>> 58e557aa (feat: add useFetch custom hook for code reuse)
       .then(response => {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35,7 +40,9 @@ const useFetch = ({url, resolvedPath}) => {
 =======
         console.log(response);
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+<<<<<<< HEAD
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
 =======
@@ -44,6 +51,22 @@ const useFetch = ({url, resolvedPath}) => {
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 =======
 >>>>>>> 4bc1f888 (feat: add useFetch custom hook for code reuse)
+=======
+=======
+=======
+<<<<<<< HEAD
+      .then((response) => {
+        console.log(response);
+=======
+      .then(response => {
+<<<<<<< HEAD
+=======
+        console.log(response);
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+>>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
+>>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
+>>>>>>> 58e557aa (feat: add useFetch custom hook for code reuse)
+>>>>>>> 6200f67c (feat: add useFetch custom hook for code reuse)
         return response.json();
       })
       .then(data => {
