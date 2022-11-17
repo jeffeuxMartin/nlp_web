@@ -8,6 +8,10 @@ const useFetch = ({url, resolvedPath}) => {
   useEffect(() => {
     fetch(url)
       .then(response => {
+<<<<<<< HEAD
+=======
+        console.log(response);
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
         return response.json();
       })
       .then(data => {

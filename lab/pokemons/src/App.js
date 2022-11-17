@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 import Header from './components/Header';
 import PokemonCard from './components/PokemonCard/PokemonCard';
+<<<<<<< HEAD
 import CartInfo from './components/Cart/CartInfo';
+=======
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 import useFetch from "./hooks/useFetch";
 
 // https://pokeapi.co/
@@ -18,6 +21,7 @@ const PokemonsWrapper = styled.div`
 
 function App() {
   const [notification,setNotification] = useState(null);
+<<<<<<< HEAD
   
   /**
    *  較好的方式是 cart 內只存 {id: id, count: count} ，不存多餘的資訊（e.g., price）
@@ -29,6 +33,9 @@ function App() {
    const [cart, setCart] = useState([]);
 
    const {loading, error, data: pokemons} = useFetch({
+=======
+  const {loading, error, data: pokemons} = useFetch({
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
     url, 
     resolvedPath: 'results'
   });
