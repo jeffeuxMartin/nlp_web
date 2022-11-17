@@ -31,6 +31,7 @@ export default function CartInfo({cart}) {
                     <span>count: {pokemon.count}</span></p>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3dcca5a7 (feat: add cart info)
 =======
 >>>>>>> 0684ec83 (feat: add cart info)
@@ -41,6 +42,12 @@ export default function CartInfo({cart}) {
 =======
 >>>>>>> 0684ec83 (feat: add cart info)
 >>>>>>> c26f4186 (feat: add cart info)
+=======
+>>>>>>> 0684ec83 (feat: add cart info)
+=======
+>>>>>>> 3dcca5a7 (feat: add cart info)
+>>>>>>> 19fc13ae (feat: add cart info)
+>>>>>>> ae4cf03e (feat: add cart info)
                   <p>subtotal: ${pokemon.count * pokemon.price}</p>
                   <hr />
               </div>
