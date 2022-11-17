@@ -39,12 +39,17 @@ import PokemonCard from './components/PokemonCard/PokemonCard';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a2aa06c7 (feat: add useFetch custom hook for code reuse)
 import CartInfo from './components/Cart/CartInfo';
 =======
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 =======
 import CartInfo from './components/CartInfo';
 >>>>>>> 3dcca5a7 (feat: add cart info)
+=======
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 import useFetch from "./hooks/useFetch";
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
@@ -97,8 +102,11 @@ function App() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> c26f4186 (feat: add cart info)
+=======
+>>>>>>> a2aa06c7 (feat: add useFetch custom hook for code reuse)
   
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
@@ -232,6 +240,9 @@ function App() {
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 =======
 >>>>>>> 3dcca5a7 (feat: add cart info)
+=======
+  const {loading, error, data: pokemons} = useFetch({
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
     url, 
     resolvedPath: 'results'
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
