@@ -9,6 +9,7 @@ import PokemonCard from './components/PokemonCard/PokemonCard';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import CartInfo from './components/Cart/CartInfo';
 =======
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
@@ -17,6 +18,9 @@ import CartInfo from './components/CartInfo';
 >>>>>>> 3dcca5a7 (feat: add cart info)
 =======
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
+=======
+import CartInfo from './components/CartInfo';
+>>>>>>> 3dcca5a7 (feat: add cart info)
 =======
 import CartInfo from './components/CartInfo';
 >>>>>>> 3dcca5a7 (feat: add cart info)
@@ -56,6 +60,7 @@ const PokemonsWrapper = styled.div`
 function App() {
 <<<<<<< HEAD
   const [notification,setNotification] = useState(null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,11 +134,25 @@ function App() {
    const [cart, setCart] = useState([]);
 =======
   const {loading, error, data: pokemons} = useFetch({
+=======
+  
+  /**
+   *  較好的方式是只存 {id: id, count: count} ，不存多餘的資訊（e.g., price）
+   *  因為 id 應該要是 unique，count 是使用者操作過後的值
+   *  然後再回查資料來源： pokemons 列表 or pokemon data ，找到要呈現在 cart 裡對應的資訊
+   *  但因為 pokemons 列表裡目前只有 name & url，
+   *  所以這裡就先取巧，直接在 handleAddToCart 理傳入 cart 呈現時需要的所有資料
+   */
+   const [cart, setCart] = useState([]);
+
+   const {loading, error, data: pokemons} = useFetch({
+>>>>>>> 3dcca5a7 (feat: add cart info)
     url, 
     resolvedPath: 'results'
   });
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
    const {loading, error, data: pokemons} = useFetch({
 <<<<<<< HEAD
@@ -173,6 +192,8 @@ function App() {
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
   });
 
+=======
+>>>>>>> 3dcca5a7 (feat: add cart info)
   const updateCart = ({pokemonName, count, price}) => {
     const hasPokemonAddedToCart = cart.find(pokemon => pokemon.name === pokemonName);
     if (!hasPokemonAddedToCart) {
@@ -182,6 +203,7 @@ function App() {
       ])
     } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
       const updatedCart = cart.map((pokemon) =>
@@ -190,11 +212,14 @@ function App() {
       setCart(updatedCart);
 =======
 >>>>>>> 6c99dfdf (feat: add cart info)
+=======
+>>>>>>> 3dcca5a7 (feat: add cart info)
       const updatedCart = cart.map(pokemon => (
         pokemon.name === pokemonName
           ?  {...pokemon, count}
           : pokemon
       ));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,6 +248,10 @@ function App() {
       setCart(updatedCart)
 >>>>>>> 0684ec83 (feat: add cart info)
 >>>>>>> 6c99dfdf (feat: add cart info)
+=======
+      console.log('updatedCart');
+      setCart(updatedCart)
+>>>>>>> 3dcca5a7 (feat: add cart info)
     }
   }
 
