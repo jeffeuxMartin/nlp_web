@@ -20,8 +20,12 @@ export default function CartInfo({cart}) {
               <div key={`${pokemon.id}_${pokemon.name}`}>
                   <p>
                     <span>{pokemon.name}{' '}</span>
+<<<<<<< HEAD
                     <span>count: {pokemon.count}</span>
                   </p>
+=======
+                    <span>count: {pokemon.count}</span></p>
+>>>>>>> 3dcca5a7 (feat: add cart info)
                   <p>subtotal: ${pokemon.count * pokemon.price}</p>
                   <hr />
               </div>
