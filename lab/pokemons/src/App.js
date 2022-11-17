@@ -8,6 +8,7 @@ import PokemonCard from './components/PokemonCard/PokemonCard';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import CartInfo from './components/Cart/CartInfo';
 =======
 >>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
@@ -38,6 +39,9 @@ import CartInfo from './components/CartInfo';
 import useFetch from "./hooks/useFetch";
 >>>>>>> 8478e5d8 (feat: add useFetch custom hook for code reuse)
 >>>>>>> 52d7fb6a (feat: add useFetch custom hook for code reuse)
+=======
+import useFetch from "./hooks/useFetch";
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 
 // https://pokeapi.co/
 const url = "https://pokeapi.co/api/v2/pokemon?limit=30";
@@ -52,6 +56,7 @@ const PokemonsWrapper = styled.div`
 function App() {
 <<<<<<< HEAD
   const [notification,setNotification] = useState(null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122,6 +127,12 @@ function App() {
 >>>>>>> bb9c12d8 (docs: modify comments)
    */
    const [cart, setCart] = useState([]);
+=======
+  const {loading, error, data: pokemons} = useFetch({
+    url, 
+    resolvedPath: 'results'
+  });
+>>>>>>> 30487c98 (feat: add useFetch custom hook for code reuse)
 
 <<<<<<< HEAD
    const {loading, error, data: pokemons} = useFetch({
