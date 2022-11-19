@@ -12,6 +12,6 @@
 
 * [![week7](https://img.shields.io/badge/slides-week7-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week7.html)
 * [![week8](https://img.shields.io/badge/slides-week8-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week8.html)
-* [![week9](https://img.shields.io/badge/slides-week9-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week9.html)
-* [![week10](https://img.shields.io/badge/slides-week10-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week10.html)
+* [![week9](https://img.shields.io/badge/slides-week9-00ff88)](https://docs.google.com/viewer?url=https://github.com/lopentu/nlp_web/raw/main/slides/week9.pdf)
+* [![week10](https://img.shields.io/badge/slides-week10-00ff88)](https://docs.google.com/viewer?url=https://github.com/lopentu/nlp_web/raw/main/slides/week10.pdf)
 * [![week11](https://img.shields.io/badge/slides-week11-00ff88)](https://htmlpreview.github.io/?https://github.com/lopentu/nlp_web/blob/main/slides/week11.html)
