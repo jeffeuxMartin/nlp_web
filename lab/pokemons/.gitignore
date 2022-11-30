@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 
 =======
@@ -76,6 +77,8 @@ yarn-error.log*
 >>>>>>> 8e4197d9 (feat: add gitignore file)
 =======
 >>>>>>> 4fc6b778 (移除超肥的 node_modules)
+=======
+>>>>>>> 54dae3c7 (移除超肥的 node_modules)
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -112,6 +115,8 @@ yarn-error.log*
 >>>>>>> 8d958a7d (feat: add gitignore file)
 =======
 >>>>>>> 8016dc8f (移除超肥的 node_modules)
+=======
+>>>>>>> c01b9614 (移除超肥的 node_modules)
 node_modules
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,6 +145,8 @@ node_modules
 >>>>>>> 23efefd6 (feat: add gitignore file)
 =======
 >>>>>>> c458e27e (移除超肥的 node_modules)
+=======
+>>>>>>> b1e7b471 (移除超肥的 node_modules)
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -183,6 +190,8 @@ yarn-error.log*
 >>>>>>> 8016dc8f (移除超肥的 node_modules)
 yarn-error.log*
 =======
+=======
+>>>>>>> 0d967612 (移除超肥的 node_modules)
 node_modules
 <<<<<<< HEAD
 >>>>>>> d998be8a (移除超肥的 node_modules)
@@ -218,6 +227,9 @@ yarn-error.log*
 =======
 =======
 
+=======
+<<<<<<< HEAD
+>>>>>>> 7ce8aab2 (移除超肥的 node_modules)
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -241,7 +253,22 @@ yarn-error.log*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 >>>>>>> 8533bb68 (feat: add gitignore file)
+<<<<<<< HEAD
 >>>>>>> b494e356 (feat: add gitignore file)
+<<<<<<< HEAD
 >>>>>>> 1dc3d0e8 (feat: add gitignore file)
+<<<<<<< HEAD
 >>>>>>> 86e97930 (feat: add gitignore file)
+=======
+=======
+=======
+=======
+=======
+node_modules
+>>>>>>> d998be8a (移除超肥的 node_modules)
+>>>>>>> 0d967612 (移除超肥的 node_modules)
+>>>>>>> b1e7b471 (移除超肥的 node_modules)
+>>>>>>> c01b9614 (移除超肥的 node_modules)
+>>>>>>> 54dae3c7 (移除超肥的 node_modules)
