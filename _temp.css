@@ -1,16 +1,18 @@
-
-
-
-
-
-.v1 { color: #ff0000; }
-.v1 { color: #ff8800; }
-.v1 { color: #ffff00; }
-.v1 { color: #d9ff00; }
-.v1 { color: #00ff40; }
-.v1 { color: #00ffdd; }
-.v1 { color: #00d9ff; }
-.v1 { color: #0000ff; }
-.v1 { color: #6200ff; }
-.v1 { color: #bb00ff; }
-.v1 { color: #ff00b7; }
+.v2 { color: rgb(255,   0,   0); } /* -ff0000 */
+.v2 { color: rgb(193,  62,   0); } /* -c13e00 */
+.v2 { color: rgb(150, 105,   0); } /* -966900 */
+.v2 { color: rgb(114, 141,   0); } /* -728d00 */
+.v2 { color: rgb( 84, 171,   0); } /* -54ab00 */
+.v2 { color: rgb( 37, 218,   0); } /* -25da00 */
+.v2 { color: rgb(  0, 240,  15); } /* -00f00f */
+.v2 { color: rgb(  0, 203,  53); } /* -00cb35 */
+.v2 { color: rgb(  0, 164,  92); } /* -00a45c */
+.v2 { color: rgb(  0, 123, 133); } /* -007b85 */
+.v2 { color: rgb(  0, 101, 155); } /* -00659b */
+.v2 { color: rgb(  0,  70, 185); } /* -0046b9 */
+.v2 { color: rgb( 31,   0, 224); } /* -1f00e0 */
+.v2 { color: rgb( 85,   0, 170); } /* -5500aa */
+.v2 { color: rgb(112,   0, 143); } /* -70008f */
+.v2 { color: rgb(149,   0, 106); } /* -95006a */
+.v2 { color: rgb(193,   0,  62); } /* -c1003e */
+.v2 { color: rgb(255,   0,   0); } /* -ff0000 */
