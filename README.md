@@ -1,3 +1,5 @@
+<meta charset="UTF-8">
+
 # nlp_web
 2022 台大自然語言處理與網路應用：課程資料
 
