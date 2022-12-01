@@ -61,7 +61,11 @@
     function detect_toxicity(sentence) {                  
       document.querySelector("#response-wrap").classList.toggle("visually-hidden");
       document.querySelector("#response-spinner").classList.toggle("visually-hidden");
-
+      
+      if (Object.keys(tox_model).length === 0) {
+        alert("Not done!");
+        return;
+      }
       tox_model.classify([sentence]).then(predictions => {
         // `predictions` is an array of objects, one for each prediction head,
         // that contains the raw probabilities for each input along with the
