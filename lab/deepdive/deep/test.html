@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Sean Application</title>
+</head>
+
+<body>
+    <h1>Hi</h1>
+    <button id="btn" onclick="alert('Hello');">Click Me!</button>
+    <input type="text" name="myvalue" id="textbox" onchange="snap()" />
+    <script type="text/javascript">
+        function snap() {
+            document.body.style.backgroundColor = 'MistyRose';
+            console.log("snap called - enter");
+            setTimeout(timeoutfunc,1000);
+            console.log("snap called - exit");
+        }
+        function callback_function() {
+            var body = document.body;
+            var button = document.querySelector("#btn");
+            body.style.backgroundColor = "bisque";
+            button.textContent = "snapped";
+        }
+        function timeoutfunc() {
+            console.log("setTimeout callback - enter");
+            callback_function();
+            console.log("setTimeout callback - exit");
+        }
+    </script>
+    <pre>
+&lt;h1&gt;Hi&lt;/h1&gt;
+&lt;button id="btn" onclick="alert('Hello');"&gt;Click Me!&lt;/button&gt;
+&lt;input type="text" name="myvalue" id="textbox" onchange="snap()" /&gt;
+&lt;script type="text/javascript"&gt;
+function snap() {
+    document.body.style.backgroundColor = 'MistyRose';
+    console.log("snap called - enter");
+    setTimeout(timeoutfunc,1000);
+    console.log("snap called - exit");
+}
+function callback_function() {
+    var body = document.body;
+    var button = document.querySelector("#btn");
+    body.style.backgroundColor = "bisque";
+    button.textContent = "snapped";
+}
+function timeoutfunc() {
+    console.log("setTimeout callback - enter");
+    callback_function();
+    console.log("setTimeout callback - exit");
+}
+&lt;/script&gt;
+    </pre>
+</body>
+
+</html>
